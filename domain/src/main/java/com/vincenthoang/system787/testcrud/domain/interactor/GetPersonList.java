@@ -25,6 +25,6 @@ public class GetPersonList extends UseCase<List<Person>, Void> {
 
     @Override
     Observable<List<Person>> buildUseCaseObservable(Void aVoid) {
-        return null;
+        return this.mPersonRepository.persons();
     }
 }

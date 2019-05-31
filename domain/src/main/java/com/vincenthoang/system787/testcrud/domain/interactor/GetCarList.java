@@ -25,6 +25,6 @@ public class GetCarList extends UseCase<List<Car>, Void>{
 
     @Override
     Observable<List<Car>> buildUseCaseObservable(Void aVoid) {
-        return null;
+        return this.mCarRepository.cars();
     }
 }

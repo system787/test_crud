@@ -11,7 +11,6 @@ import java.util.List;
 public interface PersonRepository {
     /**
      * Get an {@link Observable} which will emit a List of {@link Person}.
-     *
      */
     Observable<List<Person>> persons();
 
