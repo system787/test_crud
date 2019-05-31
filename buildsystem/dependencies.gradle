@@ -11,6 +11,11 @@ ext {
     javaxAnnotationVersion = '1.0'
     javaxInjectVersion = '1'
     arrowVersion = '1.0.0'
+    gsonVersion = '2.8.5'
+    daggerVersion = '2.23.1'
+    okHttpVersion = '3.14.2'
+    okIoVersion = '2.2.2'
+
 
     // testing
     jUnitVersion = '4.12'
@@ -28,5 +33,16 @@ ext {
             junit:              "junit:junit:${jUnitVersion}",
             mockito:            "org.mockito:mockito-core:${mockitoVersion}",
             assertj:            "org.assertj:assertj-core:${assertJVersion}"
+    ]
+
+    dataDependencies = [
+            daggerCompiler:     "com.google.dagger:dagger-compiler:${daggerVersion}",
+            dagger:             "com.google.dagger:dagger:${daggerVersion}",
+            okIo:               "com.squareup.okio:okio${okIoVersion}",
+            okHttp:             "com.squareup.okhttp3:okhttp:${okHttpVersion}",
+            gson:               "com.google.code.gson:gson:${gsonVersion}",
+            rxJava:             "io.reactivex.rxjava2:rxjava:${rxJavaVersion}",
+            javaxAnnotation:    "javax.annotation:jsr250-api:${javaxAnnotationVersion}",
+            javaxInject:        "javax.inject:javax.inject:${javaxInjectVersion}"
     ]
 }

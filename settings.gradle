@@ -1,5 +1,3 @@
-rootProject.name = 'domain'
-
 include ':presentation'
 include ':domain'
 include ':data'

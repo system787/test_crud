@@ -8,19 +8,13 @@ buildscript {
     }
 }
 
-version '1.0-SNAPSHOT'
-
-dependencies {
-    
-}
-
 task runDomainUnitTests(dependsOn: [':domain:test']) {
     description 'Run unit tests for the domain layer.'
 }
 
-task runDataUnitTests(dependsOn: [':data:cleanTestDebugUnitTest', ':data:testDebugUnitTest']) {
-    description 'Run unit tests for the data layer.'
-}
+// task runDataUnitTests(dependsOn: [':data:cleanTestDebugUnitTest', ':data:testDebugUnitTest']) {
+//     description 'Run unit tests for the data layer.'
+// }
 
 task runUnitTests(dependsOn: ['runDomainUnitTests', 'runDataUnitTests']) {
     description 'Run unit tests for both domain and data layers.'
