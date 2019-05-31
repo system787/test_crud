@@ -14,6 +14,7 @@ sourceSets {
 
 dependencies {
     def domainDependencies = rootProject.ext.domainDependencies
+    def domainTestDependencies = rootProject.ext.domainTestDependencies
 
     provided domainDependencies.javaxAnnotation
 
@@ -21,5 +22,7 @@ dependencies {
     compile domainDependencies.rxJava
     compile domainDependencies.arrow
 
-    testCompile group: 'junit', name: 'junit', version: '4.12'
+    testCompile domainTestDependencies.junit
+    testCompile domainTestDependencies.mockito
+    testCompile domainTestDependencies.assertj
 }
