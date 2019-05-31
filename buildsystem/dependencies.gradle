@@ -1,0 +1,19 @@
+allprojects {
+    repositories {
+        jcenter()
+    }
+}
+
+ext {
+    rxJavaVersion = '2.2.9'
+    javaxAnnotationVersion = '1.0'
+    javaxInjectVersion = '1'
+    arrowVersion = '1.0.0'
+
+    domainDependencies = [
+            javaxAnnotation:    "javax.annotation:jsr250-api:${javaxAnnotationVersion}",
+            javaxInject:        "javax.inject:javax.inject:${javaxInjectVersion}",
+            rxJava:         "io.reactivex.rxjava2:rxjava:${rxJavaVersion}",
+            arrow:          "com.fernandocejas:arrow:${arrowVersion}"
+    ]
+}

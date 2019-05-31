@@ -48,4 +48,22 @@ public abstract class UseCase<T, Params> {
                 .observeOn(mPostExecutionThread.getScheduler());
         addDisposable(observable.subscribeWith(observer));
     }
+
+    /**
+     * Dispose from current {@link CompositeDisposable}.
+     */
+    public void dispose() {
+        if (!mDisposable.isDisposed()) {
+            mDisposable.dispose();
+        }
+    }
+
+    /**
+     * Dispose from current {@link CompositeDisposable}.
+     */
+    private void addDisposable(Disposable disposable) {
+        Preconditions.checkNotNull(disposable);
+        Preconditions.checkNotNull(mDisposable);
+        mDisposable.add(disposable);
+    }
 }

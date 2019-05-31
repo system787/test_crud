@@ -2,22 +2,24 @@ plugins {
     id 'java'
 }
 
-repositories {
-    jcenter()
+configurations {
+    provided
+}
+
+sourceSets {
+    main {
+        compileClasspath += configurations.provided
+    }
 }
 
 dependencies {
-    compile 'com.fernandocejas:arrow:{latest_version}'
-    compile 'io.reactivex.rxjava2:rxjava:2.2.9'
-}
-version '1.0-SNAPSHOT'
+    def domainDependencies = rootProject.ext.domainDependencies
 
-sourceCompatibility = 1.8
+    provided domainDependencies.javaxAnnotation
 
-repositories {
-    mavenCentral()
-}
+    compile domainDependencies.javaxInject
+    compile domainDependencies.rxJava
+    compile domainDependencies.arrow
 
-dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
 }
