@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.vincenthoang.system787.testcrud.domain.CarTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-05-31T06:48:42" hostname="Vincents-iMac" time="0.028">
+<testsuite name="com.vincenthoang.system787.testcrud.domain.CarTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-06-13T05:27:55" hostname="Vincents-iMac" time="0.036">
   <properties/>
-  <testcase name="testCarConstructorNotEqualsCase" classname="com.vincenthoang.system787.testcrud.domain.CarTest" time="0.028"/>
+  <testcase name="testCarConstructorNotEqualsCase" classname="com.vincenthoang.system787.testcrud.domain.CarTest" time="0.036"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

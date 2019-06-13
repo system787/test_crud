@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.vincenthoang.system787.testcrud.domain.interactor.UseCaseTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-05-31T06:48:42" hostname="Vincents-iMac" time="0.054">
+<testsuite name="com.vincenthoang.system787.testcrud.domain.interactor.UseCaseTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-06-13T05:27:55" hostname="Vincents-iMac" time="0.081">
   <properties/>
-  <testcase name="testBuildUseCaseObservableReturnCorrectResult" classname="com.vincenthoang.system787.testcrud.domain.interactor.UseCaseTest" time="0.049"/>
+  <testcase name="testBuildUseCaseObservableReturnCorrectResult" classname="com.vincenthoang.system787.testcrud.domain.interactor.UseCaseTest" time="0.075"/>
   <testcase name="testSubscriptionWhenExecutingUseCase" classname="com.vincenthoang.system787.testcrud.domain.interactor.UseCaseTest" time="0.001"/>
-  <testcase name="testShouldFailWhenExecuteWithNullObserver" classname="com.vincenthoang.system787.testcrud.domain.interactor.UseCaseTest" time="0.002"/>
+  <testcase name="testShouldFailWhenExecuteWithNullObserver" classname="com.vincenthoang.system787.testcrud.domain.interactor.UseCaseTest" time="0.004"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

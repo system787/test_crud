@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.vincenthoang.system787.testcrud.domain.interactor.GetCarDetailsTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-05-31T06:48:42" hostname="Vincents-iMac" time="0.002">
+<testsuite name="com.vincenthoang.system787.testcrud.domain.interactor.GetCarDetailsTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-06-13T05:27:55" hostname="Vincents-iMac" time="0.001">
   <properties/>
   <testcase name="testGetCarDetailsUseCaseObservablePassCase" classname="com.vincenthoang.system787.testcrud.domain.interactor.GetCarDetailsTest" time="0.001"/>
   <testcase name="testShouldFailWhenNoOrEmptyParameters" classname="com.vincenthoang.system787.testcrud.domain.interactor.GetCarDetailsTest" time="0.0"/>

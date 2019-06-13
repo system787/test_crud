@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.vincenthoang.system787.testcrud.domain.exception.DefaultErrorBundleTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-05-31T06:48:42" hostname="Vincents-iMac" time="0.008">
+<testsuite name="com.vincenthoang.system787.testcrud.domain.exception.DefaultErrorBundleTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-06-13T05:27:55" hostname="Vincents-iMac" time="0.01">
   <properties/>
-  <testcase name="testGetErrorMessageInteraction" classname="com.vincenthoang.system787.testcrud.domain.exception.DefaultErrorBundleTest" time="0.008"/>
+  <testcase name="testGetErrorMessageInteraction" classname="com.vincenthoang.system787.testcrud.domain.exception.DefaultErrorBundleTest" time="0.01"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
